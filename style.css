@@ -13,8 +13,8 @@ body {
 }
 
 .container {
-	width: 1152px;
-	max-width: 90%;
+	/* width: 1152px; */
+	width: clamp(330px, 90vw, 1152px);
 	margin: 0 auto;
 }
 
@@ -63,7 +63,7 @@ button {
 }
 
 section.data {
-	max-width: 600px;
+	width: clamp(330px, 90%, 768px);
 	margin: 0 auto;
 	margin-top: 20px;
 	text-align: center;
